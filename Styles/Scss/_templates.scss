@@ -1,0 +1,64 @@
+
+
+%heaader-data{
+    color: $color-working-data;
+    font-family: $fonts1;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+%band{
+    width: 7.5rem;
+    height: 0;
+    border: 0.06rem solid rgb(255, 255, 255);
+}
+
+%product{
+    width: 16.25rem;
+}
+%product-name{
+    color: $color-nav-link;
+    font-family: $fonts2;
+    font-size: 1.13rem;
+    line-height: 1.5rem;
+    margin: 25px 0 10px;
+}
+%product-price{
+    color: $color-data-price;
+    font-family: $fonts2;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.31rem;
+}
+%title{
+    color: $color-nav-link;
+    font-family: $fonts2;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-transform: uppercase;
+}
+
+
+%blok-smoll{
+    color: $color-data-price;
+    font-family: $fonts1;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+   
+%blok-text{
+    color: $color-data-price;
+    font-family: $fonts1;
+    font-size: 0.88rem;
+    line-height: 150%;
+}
+
+%blok-text2{
+    color: $color-nav-link;
+    font-family: $fonts1;
+    font-size: 1.13rem;
+    line-height: 1.44rem;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+}
+

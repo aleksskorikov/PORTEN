@@ -1,0 +1,701 @@
+.info__personal-data, .info__working-data {
+  color: rgb(150, 150, 150);
+  font-family: "PT Sans", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.partners-band, .articles-band, .products-band, .collection__data-band, .season-band, .new__collection-band {
+  width: 7.5rem;
+  height: 0;
+  border: 0.06rem solid rgb(255, 255, 255);
+}
+
+.season__products-product {
+  width: 16.25rem;
+}
+
+.product__data-name {
+  color: rgb(255, 255, 255);
+  font-family: "Playfair Display", serif;
+  font-size: 1.13rem;
+  line-height: 1.5rem;
+  margin: 25px 0 10px;
+}
+
+.product__data-price {
+  color: rgb(208, 208, 208);
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.31rem;
+}
+
+.partners-title, .articles-title, .products-title, .collection__data-title, .season-title, .new__collection-title {
+  color: rgb(255, 255, 255);
+  font-family: "Playfair Display", serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+
+.footer__blok-agreement, .footer__blok-smal {
+  color: rgb(208, 208, 208);
+  font-family: "PT Sans", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.form-btn, .about__us-category, .about__us-text, .article__data-text, .collection__data-text {
+  color: rgb(208, 208, 208);
+  font-family: "PT Sans", sans-serif;
+  font-size: 0.88rem;
+  line-height: 150%;
+}
+
+.article__data-link, .article__data-btn, .article__data-title, .collection__data-link, .new__collection-catalog, .menu__login-text, .menu__search-btn, .burger__menu-link {
+  color: rgb(255, 255, 255);
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.13rem;
+  line-height: 1.44rem;
+  letter-spacing: 10%;
+  text-transform: uppercase;
+}
+
+body {
+  max-width: 120rem;
+  margin: 0 auto;
+  background: rgb(15, 15, 15);
+}
+
+.conteiner {
+  max-width: 1130px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header__info {
+  background: rgb(0, 0, 0);
+}
+.header__info-data {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.9rem 0;
+}
+.header__info-working {
+  display: flex;
+}
+.header__info-personal {
+  display: flex;
+  background: inherit;
+}
+.header__nav-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav-navigations {
+  display: flex;
+  align-items: center;
+}
+.header__nav-navigation {
+  display: flex;
+}
+.header__burger-menu {
+  display: none;
+}
+
+.info__working-tel {
+  margin-right: 1rem;
+}
+.info__working-data {
+  margin-right: 5px;
+}
+.info__personal-logo {
+  margin-right: 1rem;
+}
+.nav__logo-link {
+  color: rgb(255, 255, 255);
+  font-family: "Post No Bills Jaffna Medium", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 3.38rem;
+}
+.nav__navigation-list {
+  display: inline-block;
+  padding: 2rem 1rem;
+}
+.nav__navigation-list:hover {
+  background: rgb(31, 31, 31);
+}
+.nav__navigation-link {
+  color: rgb(150, 150, 150);
+  font-family: "PT Sans", sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.13rem;
+  text-transform: uppercase;
+  padding: 2rem 1rem;
+}
+.nav__navigation-link:hover {
+  color: rgb(255, 255, 255);
+}
+.nav__navigation-cart {
+  margin-left: 2rem;
+}
+.nav__navigation-search {
+  margin-left: 2.8rem;
+  background: inherit;
+}
+
+.burger__menu-img {
+  width: 2rem;
+  height: 2rem;
+}
+.burger__menu-lists {
+  display: none;
+}
+.burger__menu-list {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 0rem 2rem;
+}
+.burger__menu-list:last-child {
+  margin-bottom: 1rem;
+}
+.menu__search-btn {
+  background: inherit;
+}
+.menu__search-img {
+  margin-right: 1rem;
+}
+.menu__login-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: inherit;
+}
+.menu__login-text {
+  margin-left: 1rem;
+}
+.menu__lists-cloze {
+  width: 2rem;
+  margin-top: 1rem;
+  margin-left: 90%;
+}
+
+.search-img {
+  margin-right: 1rem;
+}
+
+.activ {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(89, 87, 87);
+  width: 100%;
+}
+
+.section__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../Images/Img/bg.svg);
+  background-position: center;
+  background-size: cover;
+}
+.section__info-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 20rem;
+  border: 0.25rem solid rgb(255, 255, 255);
+  margin: 10rem 0 5rem;
+}
+.section__info-text {
+  max-width: 47rem;
+  padding: 0 10px;
+  margin-bottom: 10rem;
+  color: rgb(255, 255, 255);
+  font-family: "PT Sans", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+.info__block-title {
+  color: rgb(255, 255, 255);
+  font-family: "Post No Bills Jaffna Medium", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  padding-bottom: 5px;
+}
+.info__block-text {
+  color: rgb(255, 255, 255);
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.38rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  text-transform: uppercase;
+  padding-top: 8px;
+}
+
+.new__seasons {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(0, 0, 0);
+}
+.new__collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background-image: url(../../Images/Img/Rectangle8.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.new__collection-title {
+  margin-top: 30rem;
+}
+.new__collection-catalog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8.63rem;
+  height: 2.94rem;
+  border: 0.06rem solid rgb(255, 255, 255);
+}
+.new__collection-catalog:hover {
+  background: rgb(31, 31, 31);
+}
+.new__collection-band {
+  margin: 1.8rem 0 1.8rem;
+}
+
+.season {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+.season__products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 0 0rem 10rem;
+}
+.season__products-product {
+  margin-bottom: 2rem;
+}
+
+.season-title {
+  margin: 5.8rem 0 3.1rem;
+}
+
+.season-band {
+  margin-bottom: 3rem;
+}
+
+.product__data {
+  margin-top: 3.5rem;
+}
+.product-imeges {
+  background: rgb(25, 27, 28);
+}
+
+.product-img {
+  width: 100%;
+  padding: 27px 22px 34px 23px;
+}
+
+.collection {
+  display: flex;
+}
+.collection__image {
+  width: 50%;
+}
+.collection__image-img {
+  width: 100%;
+}
+.collection__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background: rgb(0, 0, 0);
+}
+.collection__data-title {
+  margin-top: 6.3rem;
+}
+.collection__data-band {
+  margin: 2.5rem;
+}
+.collection__data-text {
+  max-width: 40rem;
+  color: rgb(255, 255, 255);
+}
+.collection__data-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18.63rem;
+  height: 2.94rem;
+  border: 0.06rem solid rgb(255, 255, 255);
+  margin-top: 4rem;
+}
+.collection__data-link:hover {
+  background: rgb(31, 31, 31);
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(0, 0, 0);
+}
+
+.products-title {
+  margin-top: 7.5rem;
+}
+
+.products-band {
+  margin: 2.5rem;
+}
+
+.products-catalog {
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  margin: 5rem 0 9rem;
+}
+
+.products-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  width: 11.63rem;
+  height: 3rem;
+  border: 0.06rem solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-family: "Playfair Display", serif;
+  font-size: 1.13rem;
+  line-height: 1.5rem;
+  background: inherit;
+  margin: -12rem auto;
+}
+.products-btn:hover {
+  background: rgb(31, 31, 31);
+}
+
+.last-product {
+  opacity: 0.4;
+}
+
+.hidden-products {
+  display: none;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articles-title {
+  padding-top: 4rem;
+}
+
+.articles-band {
+  margin: 2rem 0 2.5rem;
+}
+
+.article {
+  display: flex;
+  margin-top: 2rem;
+}
+.article__data {
+  display: flex;
+  flex-direction: column;
+  margin: 3.3rem 9.8rem 0 9rem;
+}
+.article__data-text {
+  color: rgb(255, 255, 255);
+  width: 40rem;
+  margin: 1rem 0 2.5rem;
+}
+.article__data-blok {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.article__data-btn {
+  width: 8.06rem;
+  height: 2.94rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.06rem solid rgb(255, 255, 255);
+  background: inherit;
+}
+.article__data-btn:hover {
+  background: rgb(31, 31, 31);
+}
+.article .data__blok-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.article-image {
+  width: 53%;
+}
+
+.article-img {
+  width: 100%;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partners__partner-blok {
+  display: flex;
+  gap: 1.8rem;
+  margin-bottom: 6.6rem;
+}
+.partners__partner {
+  display: flex;
+}
+
+.partners-title {
+  margin-top: 5.6rem;
+}
+
+.partners-band {
+  margin: 1.3rem 0 4.2rem;
+}
+
+.about__us {
+  background-image: url(../../Images/Img/formBg.svg);
+  background-size: cover;
+  background-position: center;
+}
+.about__us-bloks {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.about__us-blok {
+  max-width: 24rem;
+}
+.about__us-title {
+  color: rgb(255, 255, 255);
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  margin: 5rem 0 2.5rem;
+}
+.about__us-text {
+  color: rgb(255, 255, 255);
+  margin-bottom: 4rem;
+}
+.about__us-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.about__us-category {
+  background: rgb(15, 15, 15);
+  padding: 10px 20px;
+}
+.about__us-category:hover {
+  background: rgb(31, 31, 31);
+}
+.about__us-form {
+  display: flex;
+}
+
+.form-input {
+  width: 13rem;
+  height: 2.63rem;
+  background: rgba(255, 255, 255, 0.4);
+  padding-left: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+.form-input::-moz-placeholder {
+  color: rgb(255, 255, 255);
+}
+.form-input::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 2.56rem;
+  background: rgb(15, 15, 15);
+  color: rgb(255, 255, 255);
+  letter-spacing: 5%;
+}
+.form-btn:hover {
+  background: rgb(31, 31, 31);
+}
+
+.footer__blok {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.1rem 0;
+}
+.footer__blok-agreement {
+  text-decoration-line: underline;
+}
+
+@media (max-width: 1451px) {
+  .new__seasons {
+    flex-direction: column;
+  }
+  .new__collection {
+    width: 100%;
+  }
+  .new__collection-title {
+    margin-top: 15rem;
+  }
+  .new__collection-catalog {
+    margin-bottom: 15rem;
+  }
+  .season {
+    width: 100%;
+    order: 2;
+  }
+  .season__products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 0 0rem 10rem;
+  }
+  .products-catalog {
+    max-width: 90%;
+  }
+  .collection {
+    flex-direction: column;
+  }
+  .collection__image {
+    width: 100%;
+    height: 60%;
+  }
+  .collection__image-img {
+    width: 100%;
+  }
+  .collection__data {
+    width: 100%;
+  }
+  .collection__data-text {
+    max-width: 70%;
+  }
+  .article {
+    flex-direction: column;
+  }
+  .article__data {
+    align-items: center;
+    margin: 3.3rem 9.8rem 0 9rem;
+  }
+  .article__data-text {
+    text-align: center;
+    width: 100%;
+  }
+  .article__data-blok {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  .article-image {
+    width: 100%;
+  }
+  .partners__partner-blok {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 769px) {
+  .about__us-bloks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about__us-blok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+  }
+  .about__us-title {
+    margin: 2rem 0 2rem;
+  }
+  .about__us-text {
+    margin-bottom: 2rem;
+  }
+  .about__us-categories {
+    gap: 10px;
+  }
+  .about__us-form {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 541px) {
+  .header__nav-navigations {
+    display: flex;
+    align-items: center;
+    display: none;
+  }
+  .header__nav-data {
+    justify-content: space-around;
+    margin: 1.5rem 0;
+  }
+  .header__info-data {
+    display: none;
+  }
+  .header__burger-menu {
+    display: block;
+  }
+  .articles-title {
+    text-align: center;
+  }
+  .article__data {
+    margin: 3.3rem 1rem 0 1rem;
+  }
+  .article__data-blok {
+    width: 100%;
+  }
+}
+@media (max-width: 431px) {
+  .article__data-blok {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .articles {
+    margin-top: 10rem;
+  }
+  .article__data-title {
+    text-align: center;
+  }
+  .partners__partner {
+    justify-content: center;
+  }
+  .partners__partner-img {
+    width: 80%;
+  }
+}/*# sourceMappingURL=style.css.map */
