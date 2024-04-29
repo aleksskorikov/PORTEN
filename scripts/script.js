@@ -1,10 +1,8 @@
 $(document).ready(function () {
     function initSlider() {
         $(".products-catalog").slick({
-        // centerMode: true,
         slidesToShow: 1,
         arrows: true,
-        focusOnSelect: true
         });
     }
     function destroySlider() {

@@ -697,17 +697,21 @@ body {
     z-index: 10;
     width: 5rem;
     height: 5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 0;
   }
   .slick-prev {
     top: 100%;
     left: 10%;
-    background-image: url(../images/img/sl1\ Button\ Left.svg);
+    background-image: url(../../Images/Logo/arrow.png);
+    transform: rotate(180deg);
     background-size: cover;
   }
   .slick-next {
     top: 100%;
     right: 10%;
-    background-image: url(../images/img/sl\ 1\ Button\ Right.svg);
+    background-image: url(../../Images/Logo/arrow.png);
     background-size: cover;
   }
   .last-product {
