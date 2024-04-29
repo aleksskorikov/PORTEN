@@ -229,7 +229,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background: rgb(89, 87, 87);
+    background: $activ-bg;
     width: 100%;
 }
 
@@ -742,7 +742,7 @@ body{
 .form-input {
     width: 13rem;
     height: 2.63rem;
-    background: rgba(255, 255, 255, 0.4);
+    background: $form-input-bg;
     padding-left: 1.5rem;
     color: $color-nav-link;
     &::placeholder{
@@ -964,7 +964,7 @@ body{
         z-index: 10;
         width: 5rem;
         height: 5rem;
-        border: 1px solid white;
+        border: 1px solid $color-nav-link;
         border-radius: 50%;
         font-size: 0;
     }
