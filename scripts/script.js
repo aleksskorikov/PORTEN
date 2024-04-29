@@ -1,3 +1,30 @@
+$(document).ready(function () {
+    function initSlider() {
+        $(".products-catalog").slick({
+        // centerMode: true,
+        slidesToShow: 1,
+        arrows: true,
+        focusOnSelect: true
+        });
+    }
+    function destroySlider() {
+        $(".products-catalog").slick("unslick");
+    }
+
+    function checkWindowSize() {
+        if ($(window).width() <= 541) {
+        initSlider();
+        } else {
+        destroySlider();
+        }
+    }
+        checkWindowSize();
+
+    $(window).resize(function () {
+        checkWindowSize();
+    });
+});
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const burgerMenu = document.querySelector('#burger__menu');
@@ -5,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuListsCloze = document.querySelector('#menu__lists-cloze');
     const hiddenProducts = document.querySelectorAll('.hidden-products');
     const productsBtn = document.querySelector("#products-btn");
+    const lastProduct = document.querySelector('.last-product');
 
     burgerMenu.addEventListener('click', () => {
         burgerMenuLists.classList.add('activ');
@@ -19,6 +47,8 @@ document.addEventListener('DOMContentLoaded', () => {
     productsBtn.addEventListener('click', () => {
         hiddenProducts.forEach(hiddenProduct => {
             hiddenProduct.style.display = 'block';
+            lastProduct.style.display = 'none';
+            productsBtn.style.display = 'none';
         });
     });
 
